@@ -107,7 +107,7 @@ class TabularVAE(nn.Module):
         encoder_whitelist: list = [],
         device: Any = DEVICE,
         robust_divergence_beta: int = 2,  # used for loss_strategy = robust_divergence
-        loss_factor: int = 1,  # used for standar losss
+        loss_factor: int = 1,  # used for standard loss
         dataloader_sampler: Optional[BaseSampler] = None,
         clipping_value: int = 1,
         # early stopping
